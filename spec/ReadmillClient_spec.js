@@ -81,6 +81,9 @@ describe('ReadmillClient', function() {
 
       (new ReadmillClient()).destroy();
       expect(lastMethodCalled()).toEqual('delete');
+
+      (new ReadmillClient()).head();
+      expect(lastMethodCalled()).toEqual('head');
     });
 
   });
