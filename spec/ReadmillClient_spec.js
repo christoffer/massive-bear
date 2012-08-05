@@ -60,7 +60,6 @@ describe('ReadmillClient', function() {
   });
 
   describe('finalizers', function() {
-
     beforeEach(function() {
       helpers.mockRequests();
     });
@@ -126,5 +125,4 @@ describe('ReadmillClient', function() {
   //  client.books(4).readings({ userId: 45, state: 'abandoned', private: true }).post()
   //  client.users(4).readings(901).destroy()
   // })
-
 });
